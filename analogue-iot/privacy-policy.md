@@ -1,117 +1,108 @@
-## **Privacy Policy for GWMC Citizen Service**
 
-**Last Updated:** October 15, 2025
+## Privacy Policy
 
-Thank you for using **GWMC Citizen Service** (“the App”), developed for the **Greater Warangal Municipal Corporation (GWMC)**.
-This Privacy Policy explains how we collect, use, and protect your information when you use our mobile application.
+Last Updated: November 2025
 
----
+### Introduction
 
-### **1. Information We Collect**
+This Privacy Policy explains how [Company Name] ("we", "our", or "us") collects, uses, and protects information when you use the [App Name] mobile application.
 
-We collect only the information required to provide core civic services and ensure smooth operation of the app.
+### Information We Collect
 
-#### **a. Personal Information**
+#### Account Information
 
-The app may collect the following personal details when voluntarily provided by the user:
+* Name (if provided)
+* Email address (if provided)
+* Phone number (if provided)
+* User account credentials
 
-* **Name**
-* **Phone Number**
-* **Photographs** (uploaded by the user for complaints, service requests, or verification purposes)
-* **Gallery Access** (to allow users to select images for submissions)
+#### Device Information
 
-This information is used strictly for service identification, communication, and resolving civic issues.
+* Device identifiers
+* Operating system information
+* App version
+* Device diagnostics
 
----
+#### IoT Device Data
 
-#### **b. Location Information**
+* Device status information
+* Sensor readings
+* Operational logs
+* Device configurations
+* Usage analytics
 
-* The app requests **location permission** to determine your current position.
-* Location data is used for:
+#### Usage Information
 
-  * Mapping and identifying service request locations
-  * Assigning area-based civic services
-  * Improving response accuracy for complaints and requests
-* Location data is accessed **only when required** and is **not shared with third parties**.
+* App interactions
+* Feature usage statistics
+* Error logs and crash reports
 
----
+### How We Use Your Information
 
-#### **c. Device Information**
+We use collected information to:
 
-* The app may collect **device identifiers** (such as device ID or similar identifiers).
-* This information is used for:
+* Provide and maintain our services
+* Monitor connected IoT devices
+* Send alerts and notifications
+* Improve application performance
+* Provide customer support
+* Ensure security and prevent fraud
+* Comply with legal obligations
 
-  * Preventing misuse or duplicate requests
-  * Enhancing app security
-  * Improving system reliability and performance
+### Data Sharing
 
----
+We do not sell personal information.
 
-### **2. How We Use Your Information**
+We may share information with:
 
-The collected information is used solely for official GWMC purposes, including:
+* Cloud hosting providers
+* Analytics service providers
+* Notification service providers
+* Legal authorities when required by law
 
-* Processing and managing citizen complaints and service requests
-* Communicating updates and responses to users
-* Verifying submissions and attached media
-* Improving operational efficiency and service delivery
+### Data Security
 
-We do **not** use your data for advertising, marketing, or unauthorized analytics.
+We implement reasonable technical and organizational measures to protect your information from unauthorized access, disclosure, alteration, or destruction.
 
----
+### Data Retention
 
-### **3. Data Storage and Security**
+We retain information only as long as necessary to provide services, comply with legal obligations, resolve disputes, and enforce agreements.
 
-* Personal data is stored securely on **authorized GWMC servers**.
-* We apply appropriate **technical and administrative security measures** to protect data against unauthorized access, loss, misuse, or disclosure.
-* Uploaded photos and related data are retained **only as long as necessary** for resolving the associated service request.
+### Your Rights
 
----
+Depending on your location, you may have the right to:
 
-### **4. Data Sharing**
+* Access your personal data
+* Correct inaccurate information
+* Delete your account and data
+* Request data portability
+* Withdraw consent where applicable
 
-* We do **not sell, trade, or rent** users’ personal information.
-* Data is shared **only with authorized GWMC departments and officials** for resolving civic services and operational needs.
-* No data is shared with external third parties without legal requirement.
+### Children's Privacy
 
----
+Our services are not intended for children under 13 years of age. We do not knowingly collect personal information from children.
 
-### **5. Permissions Used**
+### Third-Party Services
 
-The app may request the following permissions:
+The app may use third-party services such as:
 
-* **Location (ACCESS_FINE_LOCATION / ACCESS_COARSE_LOCATION)**
-  To identify service locations and improve request accuracy.
-* **Camera**
-  To capture photos for complaints or service documentation.
-* **Gallery/Storage Access**
-  To upload existing images related to civic issues.
-* **Device Information**
-  For security, authentication, and performance monitoring.
+* Authentication providers
+* Cloud infrastructure providers
+* Analytics platforms
+* Push notification services
 
-No unnecessary permissions are requested.
+These providers have their own privacy policies.
 
----
+### Contact Us
 
-### **6. Children’s Privacy**
+If you have questions regarding this Privacy Policy, please contact:
 
-**GWMC Citizen Service** is intended for use by citizens and officials.
-We do not knowingly collect personal information from **children under the age of 13**. If such data is identified, it will be removed promptly.
+**[Company Name]**
+Email: [[support@analogueitsolutions.com](mailto:support@analogueitsolutions.com)]
+Website: [analogueitsolutions.com]
 
----
+### Changes to This Policy
 
-### **7. Changes to This Privacy Policy**
-
-This Privacy Policy may be updated periodically. Any changes will be reflected by updating the “Last Updated” date. Continued use of the app signifies acceptance of the revised policy.
-
----
-
-### **8. Contact Us**
-
-If you have any questions or concerns regarding this Privacy Policy, please contact us:
-
-**Greater Warangal Municipal Corporation (GWMC)**
-Website: [https://gwmc.gov.in/](https://gwmc.gov.in/)
-Email: **[support@gwmc.gov.in](mailto:support@gwmc.gov.in)**
+We may update this Privacy Policy periodically. Updates will be posted on this page with a revised effective date.
 
 ---
