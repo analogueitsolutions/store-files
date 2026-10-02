@@ -3,7 +3,7 @@
 Last updated: October 2, 2026
 
 **App:** Analogue IOT — Android and iOS (`com.aits.analogueiot`)  
-**Company:** Analogue IT Solutions
+**Company:** ANALOGUE TECHNOSOL PRIVATE LIMITED
 
 ## How to Request Account Deletion
 
@@ -48,7 +48,10 @@ Uninstalling the app, logging out, or disabling location permissions does not de
 
 ## Contact
 
-**Analogue IT Solutions**  
+**ANALOGUE TECHNOSOL PRIVATE LIMITED**
+
+H NO 12-1-532/A/1, 2ND FLOOR, P NO 25/B, BANDLAGUDA, Hyderabad – 500068, India
+
 Email: [development.analogue@gmail.com](mailto:development.analogue@gmail.com)  
 Phone: [+91 8919088163](tel:+918919088163)  
 Website: [Contact support](https://www.analogueitsolutions.com/contact/)

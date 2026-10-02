@@ -2,8 +2,8 @@
 
 ## Before Both Android and iOS Submission
 
-- Confirm official legal company name: Analogue IT Solutions.
-- Confirm copyright owner: Analogue IT Solutions.
+- Use owner-confirmed legal company name: ANALOGUE TECHNOSOL PRIVATE LIMITED.
+- Confirm copyright ownership; the owner-confirmed app operator is ANALOGUE TECHNOSOL PRIVATE LIMITED.
 - Publish Privacy Policy URL: `https://www.analogueitsolutions.com/privacy-policy/`.
 - Use Support URL: `https://www.analogueitsolutions.com/contact/`.
 - Create a demo/reviewer account with sample devices and data.
@@ -21,14 +21,16 @@
 - Confirm no staging/dev backend is used for production.
 - Confirm privacy policy matches actual backend data retention and sharing.
 
-## Current Code Items to Confirm
+## Configuration and Earlier Implementation Claims to Confirm
+
+The supplied configuration is the current reference. Earlier claims below about the API endpoint and storage need verification against application source; this documentation repository does not contain that source.
 
 - `app.config.js` production package/bundle ID: `com.aits.analogueiot`
 - `app.config.js` app name: `Analogue IOT`
 - `.env` currently points to `https://dev.bmrjewells.com/api/v2`; confirm this is the real production endpoint or replace it before release.
 - Android has fine and coarse location permissions.
-- Expo Location plugin enables Android background location.
-- iOS has background location permission text.
+- Supplied Expo Location configuration disables Android background location; verify the built manifest.
+- Supplied iOS configuration requests foreground location for geofence selection/creation; Always options are disabled.
 - SecureStore is used for credentials and saved accounts.
 - AsyncStorage is used for preferences and local app data.
 
@@ -67,8 +69,7 @@
 - Complete Government app declaration: No unless applicable.
 - Complete Financial features declaration: No unless applicable.
 - Complete Health features declaration: No.
-- Complete Background Location permission declaration.
-- Upload or link a demo video if Play Console requests background location proof.
+- Verify the release does not request background location; complete background-location declarations only if that behavior is deliberately added.
 
 ### Release
 
@@ -126,9 +127,10 @@ eas submit --platform android --profile production
 ### Permissions and Review
 
 - Confirm `NSLocationWhenInUseUsageDescription` is user-friendly.
-- Confirm `NSLocationAlwaysAndWhenInUseUsageDescription` explains background tracking clearly.
-- Confirm in-app background location disclosure appears before system permission.
-- Include background location explanation in review notes.
+- Verify no stale Always location descriptions or background-location modes remain in the built app.
+- Explain foreground phone location separately from vehicle-tracker data in review notes.
+- Remove the mandatory phone-number requirement from signup and backend validation; test signup without a number.
+- Implement and test in-app initiation of account deletion; email-only instructions are insufficient for this app.
 - If the app requires login, provide a working reviewer account.
 
 ### Release

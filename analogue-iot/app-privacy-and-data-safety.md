@@ -1,6 +1,6 @@
 # App Privacy and Data Safety Answers
 
-These answers are based on the current Expo/React Native app code and app configuration. Confirm against production backend behavior before final submission.
+These are provisional prompts, not verified submission answers. The latest supplied configuration disables background phone location. Confirm every answer against the production app, backend, SDK data flows, and current store definitions; permissions alone do not establish off-device collection. See `permissions-and-review-fix.md`.
 
 ## Apple App Store Connect - App Privacy
 
@@ -10,6 +10,7 @@ Contact Info:
 
 - Email Address: Yes
 - Name: Yes
+- Phone Number: Declare if actually collected, even if optional; remove the mandatory signup requirement.
 
 Location:
 
@@ -88,14 +89,14 @@ No, unless you add advertising SDKs or cross-app tracking SDKs.
 
 ### Background Location
 
-Answer yes for location access in the background. Provide the explanation from `background-location-justification.md`.
+The supplied configuration disables background phone location. Verify the final binary. Vehicle trackers may independently report locations to the backend; assess this data separately.
 
 ## Google Play Console - Data Safety
 
 ### Does the app collect or share user data?
 
 Collects user data: Yes  
-Shares user data: Yes, only with service providers and authorized account users as needed for app functionality. Do not mark as sale.
+Sharing: assess actual recipients using Google’s definitions and exceptions. Qualifying service-provider transfers are not automatically reportable sharing; do not select Yes or No solely from this document.
 
 ### Data Types
 
@@ -103,6 +104,7 @@ Personal info:
 
 - Name
 - Email address
+- Phone number, only if actually collected (optional after the review fix)
 - User IDs
 
 Location:
@@ -157,10 +159,12 @@ Required:
 
 - Account information
 - Vehicle/device identifiers
-- Location data required for tracking features
+- Vehicle-tracker data needed for tracking features; distinguish this from optional phone location for geofence assistance.
 
 Optional:
 
+- Phone number, if retained for an explained optional purpose
+- Phone location permission for location-assisted geofence features
 - Notification preferences
 - Biometric/local authentication
 - Some app settings
@@ -185,21 +189,12 @@ Important: Confirm production `EXPO_PUBLIC_BASEURL` uses HTTPS before submitting
 
 ### Can Users Delete Data?
 
-Yes, via support/admin request. Add an in-app deletion flow later if required by your account model.
+Existing documents describe support requests only. Implement and verify in-app initiation of account deletion before iOS submission; do not defer this requirement for an app supporting account creation.
 
 ## Permission Declarations
 
-Android permissions in current config:
+See `permissions-and-review-fix.md` for the current permission inventory. The supplied configuration explicitly declares Android fine/coarse location, configures iOS When In Use location, disables background location, and includes biometric and notification plugins.
 
-- `ACCESS_FINE_LOCATION`
-- `ACCESS_COARSE_LOCATION`
-- Background location is enabled through the Expo Location plugin.
+Do not infer that both approximate and precise location are collected merely because both permissions exist. Check what leaves the device, is retained, is linked to accounts, and is received from vehicle trackers. Likewise, distinguish operational GPS monitoring from advertising-related tracking in store terminology.
 
-iOS permission descriptions in current config:
-
-- `NSLocationWhenInUseUsageDescription`
-- `NSLocationAlwaysAndWhenInUseUsageDescription`
-
-Recommended additional Android permission declaration text:
-
-Analogue IOT uses location access to show live vehicle position, trip tracking, route history, geofence alerts, and safety monitoring. Background location is used so tracking and alerts can continue even when the app is closed or not in use.
+Official form guidance: [Google Play Data Safety](https://support.google.com/googleplay/android-developer/answer/10787469).

@@ -5,7 +5,10 @@ Prepared for Android Play Console and Apple App Store Connect submission.
 Prepared date: June 26, 2026
 
 App name: Analogue IOT  
-Company: Analogue IT Solutions  
+Company: ANALOGUE TECHNOSOL PRIVATE LIMITED
+
+Organization address: H NO 12-1-532/A/1, 2ND FLOOR, P NO 25/B, BANDLAGUDA, Hyderabad – 500068, India
+
 Website: https://www.analogueitsolutions.com/  
 Support URL: https://www.analogueitsolutions.com/contact/  
 Recommended Privacy Policy URL: https://www.analogueitsolutions.com/privacy-policy/  
@@ -20,11 +23,12 @@ App type: GPS vehicle tracking, fleet monitoring, geofence alerts, trip history,
 ## Files in this folder
 
 - `store-listing-content.md` - Promotional text, short description, long description, keywords, copyright, support URL content, and review notes.
-- `privacy-policy.md` - Publishable privacy policy content. Replace placeholders before publishing.
+- `privacy-policy.md` - App-specific privacy policy. See the review guide for operational verification and outstanding implementation work.
 - `delete-account-policy.md` - Account deletion request instructions, data scope, retention, and support contact.
 - `app-privacy-and-data-safety.md` - App Store App Privacy and Play Console Data Safety answers based on this app.
 - `android-ios-deployment-checklist.md` - Complete Android and iOS release checklist.
-- `background-location-justification.md` - Background location review explanation and in-app disclosure text.
+- `background-location-justification.md` - Current foreground-location explanation; supersedes the old background-location claims.
+- `permissions-and-review-fix.md` - Permission inventory, phone-number rejection fix, website findings, and conditional review reply.
 - `support-page-content.md` - Content for the required Support URL page.
 
 ## Must replace before submission
@@ -36,4 +40,4 @@ Confirm these final legal/store details before submission:
 - Reviewer demo login credentials
 - Backend/API production domain
 
-Important: Store reviewers may reject the app if Privacy Policy, App Privacy/Data Safety answers, in-app background location disclosure, and actual app behavior do not match.
+Important: Store reviewers may reject the app if Privacy Policy, App Privacy/Data Safety answers, permission disclosures, and actual app behavior do not match.
