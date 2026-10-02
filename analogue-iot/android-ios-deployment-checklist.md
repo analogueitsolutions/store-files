@@ -158,7 +158,7 @@ eas submit --platform ios --profile production
 - Restrict Google Maps API key by package name/SHA-1 for Android and bundle ID for iOS.
 - Replace any development API URL with production API URL.
 - Consider adding Android notification permission handling for Android 13+ if push notifications are implemented.
-- Consider adding a public account/data deletion page if required by Play Console.
+- Publish a public account/data deletion page using `delete-account-policy.md` and add its URL to Play Console where requested. Confirm deletion scope, processing times, and retention periods against backend procedures before publishing.
 
 ## Final Manual QA Checklist
 

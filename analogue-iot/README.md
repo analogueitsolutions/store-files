@@ -21,6 +21,7 @@ App type: GPS vehicle tracking, fleet monitoring, geofence alerts, trip history,
 
 - `store-listing-content.md` - Promotional text, short description, long description, keywords, copyright, support URL content, and review notes.
 - `privacy-policy.md` - Publishable privacy policy content. Replace placeholders before publishing.
+- `delete-account-policy.md` - Account deletion request instructions, data scope, retention, and support contact.
 - `app-privacy-and-data-safety.md` - App Store App Privacy and Play Console Data Safety answers based on this app.
 - `android-ios-deployment-checklist.md` - Complete Android and iOS release checklist.
 - `background-location-justification.md` - Background location review explanation and in-app disclosure text.
@@ -31,6 +32,7 @@ App type: GPS vehicle tracking, fleet monitoring, geofence alerts, trip history,
 Confirm these final legal/store details before submission:
 
 - Published privacy policy page at `https://www.analogueitsolutions.com/privacy-policy/`
+- Published account deletion page using `delete-account-policy.md`; confirm processing times and retention periods against backend procedures before publishing.
 - Reviewer demo login credentials
 - Backend/API production domain
 
